@@ -20,3 +20,6 @@ const isEven  = function (num) {
 
 console.log(isEven(10));
 console.log(isEven(11));
+
+//In this exercise, we learned how to use functions to reduce duplication in code. We also looked at the difference between calling console.log within our functions and calling return within our functions and console.loging the return value.
+
