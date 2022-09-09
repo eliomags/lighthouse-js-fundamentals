@@ -20,3 +20,16 @@ const finalPosition = function (moves) {
   return[x, y];
 }
 console.log(finalPosition(moves));
+
+
+
+
+function subtractFour(x) {
+  return square(x) - 4;
+}
+
+function square(x) {
+  return x * x;
+}
+
+console.log(subtractFour(5));
